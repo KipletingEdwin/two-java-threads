@@ -40,6 +40,17 @@ public class Main {
         thread2.start();
         System.out.println(thread2.isAlive());
 
+        thread2.setName("eduuuu");
+
+        System.out.println(thread2.getName());
+
+        System.out.println("--------------------------------");
+//        thread2.setPriority(9);
+        System.out.println(thread2.getPriority());
+
+
+        System.out.println(Thread.activeCount());
+
 
     }
 }
